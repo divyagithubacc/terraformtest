@@ -4,7 +4,7 @@ variable "bucket_acl" {
 }
 
 resource "aws_s3_bucket" "bucket" {
-  bucket   = "testbucketwithjenkins"
+  bucket   = "testbucketwithjenkins1"
   acl      = "${var.bucket_acl}"
 
   versioning {
